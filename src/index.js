@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import Axios from 'axios';
+// import App from './App';
+import Routes from './route/routes';
 import './index.css';
-import App from './App';
+import 'antd/dist/antd.css';
 import reportWebVitals from './reportWebVitals';
-
+// React.Component.prototype.axios = Axios;
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root')
 );
